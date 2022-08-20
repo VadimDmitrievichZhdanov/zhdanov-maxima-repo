@@ -28,8 +28,8 @@ public class MainTest {
 
     @Test
     public void testEndsWith() {
-        char[] array1 = new char[]{'h','i',' ','t','h','e','r','e'};
-        char[] array2 = new char[]{'h','i',' ','t','h','e','r','e',' ','a','n','d',' ','f','u','c','k',' ','o','f','f'};
+        char[] array1 = new char[]{'h','i',' ','p','r','i','v','e','t'};
+        char[] array2 = new char[]{'h','i',' ','p','r','i','v','u','t'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
 }
