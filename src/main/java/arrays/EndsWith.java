@@ -1,7 +1,8 @@
 package arrays;
 
 public class EndsWith {
-    public static boolean endsWith(char[] word, char[] post) {
+    public static boolean endsWith(char[] word, char[] post) throws ArrayIndexOutOfBoundsException {
+        //do not use method for less than 3!
         char z1 = word[word.length - 1];
         char y1 = post[post.length - 1];
         char z2 = word[word.length - 2];

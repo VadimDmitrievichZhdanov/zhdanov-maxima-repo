@@ -5,8 +5,6 @@ import org.junit.Test;
 
 import java.util.Random;
 
-import static org.junit.Assert.*;
-
 public class MainTest {
     @Test
     public void testFirstArrayTask() {
@@ -27,9 +25,33 @@ public class MainTest {
     }
 
     @Test
-    public void testEndsWith() {
+    public void testEndsWithEqual() {
         char[] array1 = new char[]{'h','i',' ','p','r','i','v','e','t'};
-        char[] array2 = new char[]{'h','i',' ','p','r','i','v','u','t'};
+        char[] array2 = new char[]{'h','i',' ','p','r','i','v','e','t'};
+        System.out.println(EndsWith.endsWith(array1, array2));
+    }
+    @Test
+    public void testEndsWithNotEqual3() {
+        char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
+        char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'z', 'u', 'z'};
+        System.out.println(EndsWith.endsWith(array1, array2));
+    }
+    @Test
+    public void testEndsWithNotEqual2() {
+        char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
+        char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'z', 'u', 't'};
+        System.out.println(EndsWith.endsWith(array1, array2));
+    }
+    @Test
+    public void testEndsWithNotEqual1() {
+        char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
+        char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'u', 't'};
+        System.out.println(EndsWith.endsWith(array1, array2));
+    }
+    @Test
+    public void testEndsWithNotEqualException() {
+        char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
+        char[] array2 = new char[]{'h'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
 }
