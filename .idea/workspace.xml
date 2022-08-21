@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94952d17-4f1c-4b96-bd86-4d32f875802d" name="Changes" comment="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты, добавлены тесты на исключения.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/branchoperators/bot/TelegramBotBasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/FirstArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/FirstArrayTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/SecondArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/SecondArrayTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +52,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="Application.TelegramBotBasic">
+    <configuration name="TelegramBotBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="branchoperators.bot.TelegramBotBasic" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="branchoperators.bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testEndsWithNotEqualException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testEndsWithNotEqualException" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TelegramBotBasic" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.testFirstArrayTask" />
         <item itemvalue="JUnit.MainTest.testSecondArrayTask3" />
         <item itemvalue="JUnit.MainTest.testSecondArrayTask2" />
-        <item itemvalue="JUnit.MainTest.testEndsWithNotEqualException" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +128,7 @@
       <workItem from="1659796332918" duration="106000" />
       <workItem from="1659796536052" duration="19151000" />
       <workItem from="1660979284529" duration="7114000" />
-      <workItem from="1661081601266" duration="4602000" />
+      <workItem from="1661081601266" duration="8144000" />
     </task>
     <task id="LOCAL-00001" summary="Второе домашнее задание выполнено.">
       <created>1659817525958</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660983263456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты, добавлены тесты на исключения.">
+      <created>1661091293412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661091293412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
