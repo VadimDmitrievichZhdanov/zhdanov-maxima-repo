@@ -63,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testMovieAccessServiceIntern">
+  <component name="RunManager" selected="JUnit.MainTest.testEndsWithNotEqualException">
     <configuration name="MovieAccessService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="branchoperators.movie.MovieAccessService" />
       <module name="JavaCore" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testEndsWithNotEqualException" />
         <item itemvalue="JUnit.MainTest.testMovieAccessServiceIntern" />
         <item itemvalue="JUnit.MainTest.testMovieAccessServiceAdult" />
         <item itemvalue="Application.MovieAccessService" />
         <item itemvalue="JUnit.MainTest.testMovieAccessService" />
-        <item itemvalue="JUnit.MainTest.testEndsWithNotEqualException" />
       </list>
     </recent_temporary>
   </component>
