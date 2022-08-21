@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94952d17-4f1c-4b96-bd86-4d32f875802d" name="Changes" comment="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа.">
+    <list default="true" id="94952d17-4f1c-4b96-bd86-4d32f875802d" name="Changes" comment="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты, добавлены тесты на исключения.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/EndsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/EndsWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/FirstArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/FirstArrayTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrays/SecondArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/SecondArrayTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
@@ -54,43 +56,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testEndsWithNotEqualException">
-    <configuration name="MainTest.testEndsWithEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testEndsWithEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testEndsWithNotEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testEndsWithNotEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testEndsWithNotEqual1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testEndsWithNotEqual1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testEndsWithNotEqual3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testEndsWithNotEqual3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +76,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testSecondArrayTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testFirstArrayTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testSecondArrayTask" />
+      <option name="METHOD_NAME" value="testFirstArrayTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testSecondArrayTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testSecondArrayTask2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testSecondArrayTask3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testSecondArrayTask3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testFirstArrayTask" />
+        <item itemvalue="JUnit.MainTest.testSecondArrayTask3" />
+        <item itemvalue="JUnit.MainTest.testSecondArrayTask2" />
         <item itemvalue="JUnit.MainTest.testEndsWithNotEqualException" />
-        <item itemvalue="JUnit.MainTest.testEndsWithNotEqual" />
-        <item itemvalue="JUnit.MainTest.testEndsWithNotEqual1" />
-        <item itemvalue="JUnit.MainTest.testEndsWithEqual" />
-        <item itemvalue="JUnit.MainTest.testEndsWithNotEqual3" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +128,8 @@
       <workItem from="1659796111177" duration="214000" />
       <workItem from="1659796332918" duration="106000" />
       <workItem from="1659796536052" duration="19151000" />
-      <workItem from="1660979284529" duration="3413000" />
+      <workItem from="1660979284529" duration="7114000" />
+      <workItem from="1661081601266" duration="4602000" />
     </task>
     <task id="LOCAL-00001" summary="Второе домашнее задание выполнено.">
       <created>1659817525958</created>
@@ -153,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660980540640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты">
+      <created>1660983263456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660983263456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +172,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Второе домашнее задание выполнено." />
     <MESSAGE value="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа." />
-    <option name="LAST_COMMIT_MESSAGE" value="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа." />
+    <MESSAGE value="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты" />
+    <MESSAGE value="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты, добавлены тесты на исключения." />
+    <option name="LAST_COMMIT_MESSAGE" value="EndsWith исправлено, теперь проверяет не 1 последний символ, а три последних символа. Добавлены тесты, добавлены тесты на исключения." />
   </component>
 </project>

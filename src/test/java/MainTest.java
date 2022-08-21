@@ -1,7 +1,9 @@
 import arrays.EndsWith;
 import arrays.FirstArrayTask;
 import arrays.SecondArrayTask;
+import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
 
 import java.util.Random;
 
@@ -21,37 +23,62 @@ public class MainTest {
     public void testSecondArrayTask() {
         int[] array1 = new int[10];
         int[] array2 = new int[25];
-        System.out.println(SecondArrayTask.fullSize(array1, array2));
+        Assert.assertEquals(35, SecondArrayTask.fullSize(array1, array2));
+    }
+
+    @Test
+    public void testSecondArrayTask2() {
+        int[] array1 = new int[0];
+        int[] array2 = new int[0];
+        Assert.assertEquals(0, SecondArrayTask.fullSize(array1, array2));
+    }
+
+    @Test(expected = NegativeArraySizeException.class)
+    public void testSecondArrayTask3() {
+        int[] array1 = new int[-1];
+        int[] array2 = new int[0];
+        Assertions.assertEquals(NegativeArraySizeException.class, SecondArrayTask.fullSize(array1, array2));
+    }
+
+    @Test(expected = OutOfMemoryError.class)
+    public void testSecondArrayTask4() {
+        int[] array1 = new int[999999999];
+        int[] array2 = new int[100000000];
+        Assertions.assertEquals(OutOfMemoryError.class, SecondArrayTask.fullSize(array1, array2));
     }
 
     @Test
     public void testEndsWithEqual() {
-        char[] array1 = new char[]{'h','i',' ','p','r','i','v','e','t'};
-        char[] array2 = new char[]{'h','i',' ','p','r','i','v','e','t'};
+        char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
+        char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
+
     @Test
     public void testEndsWithNotEqual3() {
         char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'z', 'u', 'z'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
+
     @Test
     public void testEndsWithNotEqual2() {
         char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'z', 'u', 't'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
+
     @Test
     public void testEndsWithNotEqual1() {
         char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         char[] array2 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'u', 't'};
         System.out.println(EndsWith.endsWith(array1, array2));
     }
-    @Test
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void testEndsWithNotEqualException() {
         char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         char[] array2 = new char[]{'h'};
-        System.out.println(EndsWith.endsWith(array1, array2));
+        Assertions.assertEquals(ArrayIndexOutOfBoundsException.class, EndsWith.endsWith(array1, array2));
     }
 }
