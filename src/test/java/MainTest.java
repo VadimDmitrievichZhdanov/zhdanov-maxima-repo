@@ -1,6 +1,7 @@
 import arrays.EndsWith;
 import arrays.FirstArrayTask;
 import arrays.SecondArrayTask;
+import branchoperators.movie.MovieAccessService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
@@ -80,5 +81,25 @@ public class MainTest {
         char[] array1 = new char[]{'h', 'i', ' ', 'p', 'r', 'i', 'v', 'e', 't'};
         char[] array2 = new char[]{'h'};
         Assertions.assertEquals(ArrayIndexOutOfBoundsException.class, EndsWith.endsWith(array1, array2));
+    }
+
+    @Test
+    public void testMovieAccessServiceIntern() {
+        Assertions.assertEquals("Access is denied", MovieAccessService.accessMovie(5));
+    }
+
+    @Test
+    public void testMovieAccessServiceAdult() {
+        Assertions.assertEquals("Rating F. Access is allowed.", MovieAccessService.accessMovie(99));
+    }
+
+    @Test
+    public void testMovieAccessServiceJunior() {
+        Assertions.assertEquals("Rating R. Access is allowed.", MovieAccessService.accessMovie(20));
+    }
+
+    @Test
+    public void testMovieAccessServiceNegative() {
+        Assertions.assertEquals("Invalid age, check the visitor", MovieAccessService.accessMovie(-1));
     }
 }

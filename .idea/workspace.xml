@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94952d17-4f1c-4b96-bd86-4d32f875802d" name="Changes" comment="Добавил бот" />
+    <list default="true" id="94952d17-4f1c-4b96-bd86-4d32f875802d" name="Changes" comment="Добавил бот">
+      <change afterPath="$PROJECT_DIR$/src/main/java/branchoperators/movie/MovieAccessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,10 +48,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/branchoperators" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -49,13 +63,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TelegramBotBasic">
-    <configuration name="TelegramBotBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="branchoperators.bot.TelegramBotBasic" />
+  <component name="RunManager" selected="JUnit.MainTest.testMovieAccessServiceIntern">
+    <configuration name="MovieAccessService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="branchoperators.movie.MovieAccessService" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="branchoperators.bot.*" />
+          <option name="PATTERN" value="branchoperators.movie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,40 +77,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testEndsWithNotEqualException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testFirstArrayTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testFirstArrayTask" />
+      <option name="METHOD_NAME" value="testEndsWithNotEqualException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testSecondArrayTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testMovieAccessService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testSecondArrayTask2" />
+      <option name="METHOD_NAME" value="testMovieAccessService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testSecondArrayTask3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testMovieAccessServiceAdult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testSecondArrayTask3" />
+      <option name="METHOD_NAME" value="testMovieAccessServiceAdult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testMovieAccessServiceIntern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testMovieAccessServiceIntern" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TelegramBotBasic" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testFirstArrayTask" />
-        <item itemvalue="JUnit.MainTest.testSecondArrayTask3" />
-        <item itemvalue="JUnit.MainTest.testSecondArrayTask2" />
+        <item itemvalue="JUnit.MainTest.testMovieAccessServiceIntern" />
+        <item itemvalue="JUnit.MainTest.testMovieAccessServiceAdult" />
+        <item itemvalue="Application.MovieAccessService" />
+        <item itemvalue="JUnit.MainTest.testMovieAccessService" />
+        <item itemvalue="JUnit.MainTest.testEndsWithNotEqualException" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +140,7 @@
       <workItem from="1659796332918" duration="106000" />
       <workItem from="1659796536052" duration="19151000" />
       <workItem from="1660979284529" duration="7114000" />
-      <workItem from="1661081601266" duration="8514000" />
+      <workItem from="1661081601266" duration="12588000" />
     </task>
     <task id="LOCAL-00001" summary="Второе домашнее задание выполнено.">
       <created>1659817525958</created>
@@ -162,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661098715035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавил бот">
+      <created>1661098725798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661098725798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
